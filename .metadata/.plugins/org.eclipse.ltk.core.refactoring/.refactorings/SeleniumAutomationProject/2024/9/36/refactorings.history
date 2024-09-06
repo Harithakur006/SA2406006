@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.WebDriverDemos.D05LocateById&apos; to &apos;D05LocateByName&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAutomationProject&apos;&#x0D;&#x0A;- Original element: &apos;com.WebDriverDemos.D05LocateById&apos;&#x0D;&#x0A;- Renamed element: &apos;com.WebDriverDemos.D05LocateByName&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;D05LocateById&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.WebDriverDemos{D05LocateById.java[D05LocateById" matchStrategy="1" name="D05LocateByName" qualified="false" references="true" similarDeclarations="false" stamp="1725637665885" textual="false" version="1.0"/>
+</session>

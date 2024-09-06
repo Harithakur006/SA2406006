@@ -1,0 +1,5 @@
+Assignments / Homeworks
+1. Try driver.getPageSource() and tell the purpose and return type of this method
+2. Open facebook.com and try login with valid user name and invalid password using className locator
+3. open https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
+	Create 3 different classes for login using id, name & className
