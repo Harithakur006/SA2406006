@@ -18,6 +18,10 @@ public class D07LocateByClassName {
 		searchBox.sendKeys("Automation jobs for freshers");
 		searchBox.sendKeys(Keys.ENTER);
 		
+		//driver.findElement(By.className("gLFyf")).sendKeys("Ankush Vankore");
+		//driver.findElement(By.className("gLFyf")).sendKeys(Keys.RETURN);
+		
+		
 		String title = driver.getTitle();
 		
 		if(title.contains("Automation jobs for freshers"))

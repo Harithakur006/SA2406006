@@ -13,7 +13,7 @@ public class A01FaceBookLoginByClass {
 		
 		driver.get("https://www.facebook.com/");
 		
-		WebElement emailId = driver.findElement(By.className("inputtext"));
+		WebElement emailId = driver.findElement(By.className("_6lux"));
 		emailId.sendKeys("ankushvankore");
 	}
 

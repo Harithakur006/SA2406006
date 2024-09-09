@@ -13,7 +13,7 @@ public class D01LaunchingChrome {
 		
 		driver.get("https://www.google.co.in/");
 		
-		driver.close();
+		//driver.close();
 	}
 
 }
