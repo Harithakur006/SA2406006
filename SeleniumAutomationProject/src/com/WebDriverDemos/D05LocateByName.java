@@ -17,8 +17,11 @@ public class D05LocateByName {
 		emailId.sendKeys("ankushvankore@gmail.com");
 		WebElement password = driver.findElement(By.name("pass"));
 		password.sendKeys("1234567890");
-		WebElement loginBtn = driver.findElement(By.name("login"));
-		loginBtn.click();
+		//WebElement loginBtn = driver.findElement(By.name("login"));
+		//loginBtn.click();
+		//driver.findElement(By.cssSelector("button[class=\"_42ft _4jy0 _6lth _4jy6 _4jy1 selected _51sy\"]")).click();
+		driver.findElement(By.cssSelector("button[value=\"1\"]")).click(); 
+
 	}
 
 }

@@ -10,16 +10,18 @@ public class Trial {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://google.com");
-
-		WebElement searchbox = driver.findElement(By.className("gLFyf"));
-		searchbox.sendKeys("Automation jobs for freshers");
-		searchbox.sendKeys(Keys.ENTER);
-
-		String title = driver.getTitle();
-		if (title.contains("Automation jobs for freshers")) {
-			System.out.println("Correct");
-		} else
-			System.out.println("Incorect");
+		// WebElement searchBox = driver.findElement(By.className("")); -
+		// InvalidSelector
+		WebElement searchBox = driver.findElement(By.className("gLFyf"));
+		searchBox.sendKeys("Automation jobs");
+		searchBox.sendKeys(Keys.ENTER);
+		String src = driver.getTitle();
+		System.out.println(src);
+		if (src.contains("Automation")) {
+			System.out.println("correct results");
+		}
+		else
+			System.out.println("Wrong");
 
 	}
 
