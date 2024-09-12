@@ -6,3 +6,26 @@ Assignments / Homeworks
 4. Open facebook.com and try login with valid user name and invalid password using className locator and display the error message.
 5. Try login on echotrak site using absolute and relative xpath and display the error message (also using xpath)
 	NOTE: Please dont copy the xpath, try creating the xpath
+6. open https://echoecho.com/htmlforms09.htm 
+	a. Display the status all checkboxes (Selected, Enabled, Visible)
+	b. Select the checkbox which are not selected
+	c. Display the status (Selected, Enabled, Visible)
+	https://echoecho.com/htmlforms09.htm
+7. open https://echoecho.com/htmlforms10.htm
+	a. Display the status of every radio button(Selected, Enabled, Visible)
+	b. Click on every radio button
+	c. Display the status of every radio button(Selected, Enabled, Visible)
+	https://echoecho.com/htmlforms10.htm
+8. Open https://register.rediff.com/register/register.php?FormName=user_details
+	a. Select your birth date
+	b. Display this birth date as 
+		My Birth Date is 29 JAN 1979
+9. Open https://www.redbus.in/
+	a. In From Enter first 4 characters of your city (Kolhapur -> Kolh)
+	b. Select 1st Option from the list displayed (Take a XPath and click on that)
+	c. In To Enter first 4 characters of your city (Banglore -> Ban)
+	d. Select 1st Option from the list displayed
+	e. Click on Calender icon
+	f. Click on Date 30
+	g. Click on Search Buses button
+	h. Display the name of 1st Bus from the list

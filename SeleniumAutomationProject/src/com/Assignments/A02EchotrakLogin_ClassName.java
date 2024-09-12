@@ -17,7 +17,8 @@ public class A02EchotrakLogin_ClassName {
 		userId.sendKeys("basavraj");
 		WebElement password = driver.findElement(By.name("txtPassword"));
 		password.sendKeys("basavraj123");
-		WebElement loginBtn = driver.findElement(By.className("btn-primary"));
+		//WebElement loginBtn = driver.findElement(By.className("btn-primary"));
+		WebElement loginBtn = driver.findElement(By.xpath("/html/body/div/div/div[2]/div/div[2]/div[1]/div/div/div/form/fieldset/div[3]/div[1]/input"));
 		loginBtn.click();
 		
 		//WebElement errMsg = driver.findElement(By.id("lblMsg"));
