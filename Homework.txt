@@ -29,3 +29,19 @@ Assignments / Homeworks
 	f. Click on Date 30
 	g. Click on Search Buses button
 	h. Display the name of 1st Bus from the list
+10. Complete the entire redbus assignment using ExplicitWait
+11. Complete the entire redbus assignment using FluentWait
+12. Open https://register.rediff.com/register/register.php?FormName=user_details
+	Complete all the fileds 
+	Display the message which get displayed after clicking on Check Availablity button.
+13. Open https://dash.bling-center.com/platform/signIn.html 
+	a. Click on forgot password
+	b. Enter email id
+	c. Click on Reset Password
+	d. Display the messages (in green color)
+14. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Enter user name as admin
+	b. Enter password as admin123
+	c. Click on Login
+	d. Click on down arrow next to the name
+	e. Click on logout

@@ -9,19 +9,26 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Trial {
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://google.com");
-		// WebElement searchBox = driver.findElement(By.className("")); -
-		// InvalidSelector
-		WebElement searchBox = driver.findElement(By.className("gLFyf"));
-		searchBox.sendKeys("Automation jobs");
-		searchBox.sendKeys(Keys.ENTER);
-		String src = driver.getTitle();
-		System.out.println(src);
-		if (src.contains("Automation")) {
-			System.out.println("correct results");
+		driver.manage().window().maximize();
+		driver.get("https://echoecho.com/htmlforms09.htm");
+		
+		//driver.findElement(By.linkText("radio buttons")).click();
+		
+		WebElement rediobutton1=driver.findElement(By.xpath("//form [@action='dummy']//input[@value='Milk']"));
+		System.out.println("Befor clicking");
+		System.out.println("Milk is selected : " +rediobutton1.isSelected());
+		System.out.println("Milk is Displayed : " +rediobutton1.isDisplayed());
+		System.out.println("Milk is Displayed : " +rediobutton1.isEnabled());
+		
+		
+		if(rediobutton1.isSelected() == false) {
+			rediobutton1.click();
 		}
-		else
-			System.out.println("Wrong");
+		System.out.println("After clicking");
+		System.out.println("Milk is selected : " +rediobutton1.isSelected());
+		System.out.println("Milk is Displayed : " +rediobutton1.isDisplayed());
+		System.out.println("Milk is Displayed : " +rediobutton1.isEnabled());
+
 
 	}
 

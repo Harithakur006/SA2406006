@@ -1,0 +1,10 @@
+package com.WebDriverDemos;
+
+public class D22Synchronization_FluentWait {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
