@@ -1,0 +1,9 @@
+package com.WebDriverDemos;
+
+public class D26HandlingFileUpload {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

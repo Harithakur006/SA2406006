@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.WebDriverDemos.D26HandlingDynamicMenu&apos; to &apos;D26HandlingFileUpload&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAutomationProject&apos;&#x0D;&#x0A;- Original element: &apos;com.WebDriverDemos.D26HandlingDynamicMenu&apos;&#x0D;&#x0A;- Renamed element: &apos;com.WebDriverDemos.D26HandlingFileUpload&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;D26HandlingDynamicMenu&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.WebDriverDemos{D26HandlingDynamicMenu.java[D26HandlingDynamicMenu" matchStrategy="1" name="D26HandlingFileUpload" qualified="false" references="true" similarDeclarations="false" stamp="1726504775882" textual="false" version="1.0"/>
+</session>

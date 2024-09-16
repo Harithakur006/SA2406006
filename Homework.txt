@@ -45,3 +45,32 @@ Assignments / Homeworks
 	c. Click on Login
 	d. Click on down arrow next to the name
 	e. Click on logout
+15. Open facebook.com and try login with valid user name and invalid password using Relative locator 
+16. Open https://money.rediff.com/gainers/bse/daily/groupa?src=gain_lose
+	a. Display list of all the companies
+	b. Display the highest Current Price
+17. Open https://demoqa.com/webtables
+	a. Try to display all header columns
+	b. Click on Add button
+	c. Enter all the data
+	d. Search the name in First Name column
+	e. Click on delete button in the same row
+18. On https://demoqa.com/alerts 
+	Try handling 2nd alert using ExplictWait (ExpectedConditions.alertIsPresent())
+19. On Google 
+	a. Enter your full name in search box
+	b. Click on Google Search button
+	c. Check whether it is showing the correct result or not.
+20. Try login on OrangeHRM with valid data and logout only when it is logged in successfully
+21. On https://demo.guru99.com/test/upload/
+	a. Try uploading any file
+	b. Click on I accept terms Checkbox
+	c. Click on submit button
+	d. Display the message that is displayed on the page.
+22. Open https://sampleapp.tricentis.com/101/index.php
+	a. Click on Automobile
+	b. Fill all the fields on this page
+	c. Click on Next Button
+	d. Fill all the fields on this page as well
+	e. Select the picture
+	f. If possible fill the next form as well
