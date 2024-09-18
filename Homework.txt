@@ -74,3 +74,25 @@ Assignments / Homeworks
 	d. Fill all the fields on this page as well
 	e. Select the picture
 	f. If possible fill the next form as well
+23. Open https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+	a. Login with Admin 
+	b. Click on PIM
+	c. Click on + Add button
+	d. Enter First Name 
+	e. Enter Middle Name
+	f. Enter Last Name
+	g. Click on Create Login Details
+	h. Enter User Name
+	i. Enter Password
+	j. Enter Confirm Password
+	k. Click on Save Button
+	l. Logout
+
+	m. Login using data provided in step no h & i
+	n. Display name of employee on logout link
+	o. Click on My Info
+	p. Display the Employee ID
+	q. Logout
+24. Display all menus from amazon.in
+25. Open https://demo.guru99.com/test/simple_context_menu.html
+	Display all the sub menus those got displayed after right click
