@@ -35,8 +35,20 @@ public class D24HandlingTable {
 		
 		System.out.println(driver.findElement(By.xpath("/html/body/div[2]/div[4]/table/tbody/tr[" + (n+1) + "]")).getText());
 		
-		driver.close();
+		List<WebElement>currentPrice = driver.findElements(By.xpath("//*[@id=\"leftcontainer\"]/table/tbody/tr/td[4]"));
+		double[] cpArray = new double[currentPrice.size()];
 		
+		for(int i = 0; i < cpArray.length; i++)
+		{
+			//String cp = currentPrice.get(i).getText();
+			//cp = cp.replace(",", "");
+			//cpArray[i] = Double.parseDouble(cp);
+			cpArray[i] = Double.parseDouble(currentPrice.get(i).getText().replace(",", ""));
+			System.out.println(cpArray[i]);
+		}
+		
+		
+		driver.close();
 	}
 
 }

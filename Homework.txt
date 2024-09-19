@@ -96,3 +96,20 @@ Assignments / Homeworks
 24. Display all menus from amazon.in
 25. Open https://demo.guru99.com/test/simple_context_menu.html
 	Display all the sub menus those got displayed after right click
+26. Open https://www.amazon.in/
+	a. Print the title
+	b. Click on Sell	
+	c. Print the title
+	d. Open https://www.amazon.in/
+	e. Print the title
+	f. Click on Best Sellers
+	g. Print the title
+	h. Open https://www.amazon.in/
+	i. Print the title
+	j. Click on Mobiles
+	k. Print the title
+	l. Open https://www.amazon.in/
+	m. Print the title
+	n. Click on Electronics
+	o. Print the title
+	p. Close the browser
