@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Basavraj">
+	<test name = "Anjum">
+		<classes>
+			<class name = "com.TestNGDemos.D08AmazonAssignment">
+			</class>
+			<class name = "com.TestNGDemos.D06DataProviderDemo">
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -113,3 +113,22 @@ Assignments / Homeworks
 	n. Click on Electronics
 	o. Print the title
 	p. Close the browser
+27. Open https://www.iplt20.com/points-table/men/2024
+	a. Display the list as follows
+
+	KKR	NNWWW		N - 2, W - 3, L - 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

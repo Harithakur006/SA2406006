@@ -1988,3 +1988,700 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+!SESSION 2024-09-20 20:05:04.068 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=11.0.18
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -data D:\StarAgile\Demos\SA2406006 -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2024-09-20 20:05:16.770
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-09-20 20:05:16.770
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72b10258,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@77ec9fdb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-09-20 20:05:16.770
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@35af1558,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2361365c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-09-20 20:05:23.745
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:20:44.824
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61757 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--826635704\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61757 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--826635704\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:21:36.030
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61821 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--597802053\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61821 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--597802053\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:23:38.287
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 61959 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--2144371683\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 61959 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--2144371683\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:26:52.193
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62201 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-258124688\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62201 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-258124688\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:27:45.054
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62283 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-698718018\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62283 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-698718018\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:29:39.031
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62442 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1705038224\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62442 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1705038224\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:36:51.566
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62979 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1516275493\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 62979 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1516275493\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:40:22.796
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63213 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1039326419\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63213 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1039326419\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:42:37.648
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63342 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1164147501\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63342 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1164147501\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:46:04.950
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63521 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-192249656\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 63521 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-192249656\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-09-20 20:49:27.354
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-09-20 20:49:27.548
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:53:52.002
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 64868 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2102201204\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 64868 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2102201204\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 20:57:16.912
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 65133 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1624467308\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 65133 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-1624467308\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:07:53.509
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49353 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49353 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:08:26.449
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49426 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49426 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:08:49.166
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49454 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49454 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-09-20 21:08:55.457
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:275)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at org.eclipse.wst.xsl.internal.debug.ui.tabs.main.StylesheetLabelProvider.<init>(StylesheetLabelProvider.java:28)
+	at org.eclipse.wst.xsl.internal.debug.ui.tabs.main.TransformsBlock.createControl(TransformsBlock.java:73)
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLLaunchShortcut$2.createDialogArea(XSLLaunchShortcut.java:218)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.dialogs.StatusDialog.create(StatusDialog.java:130)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLLaunchShortcut.promptForStylesheet(XSLLaunchShortcut.java:237)
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLLaunchShortcut.searchAndLaunch(XSLLaunchShortcut.java:139)
+	at org.eclipse.wst.xsl.internal.debug.ui.XSLLaunchShortcut.launch(XSLLaunchShortcut.java:128)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:419)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:262)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:373)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:191)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:100)
+	at org.eclipse.debug.ui.actions.RelaunchLastAction.runInternal(RelaunchLastAction.java:122)
+	at org.eclipse.debug.ui.actions.RelaunchLastAction.runWithEvent(RelaunchLastAction.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:580)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:647)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:439)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1280)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1072)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1114)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1110)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1795)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5155)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:406)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4778)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:340)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:09:03.840
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49484 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49484 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:09:22.084
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49516 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49516 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X01ExecuteSingleTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:10:48.834
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49660 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X02ExecuteMultipleTests.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49660 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X02ExecuteMultipleTests.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:13:32.576
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 49862 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 49862 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:14:23.147
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50001 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 50001 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:15:13.503
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50142 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 50142 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03SkipTest.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:16:34.259
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50291 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03ExecuteClass.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 50291 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03ExecuteClass.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:19:10.069
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 50502 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03ExecuteClass.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 50502 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X03ExecuteClass.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:32:38.212
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51273 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 51273 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:34:39.893
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51363 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 51363 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:37:18.088
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51479 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--435297702\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 51479 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--435297702\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:40:33.659
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51724 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 51724 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X04ExecuteGroup.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:43:31.735
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 51942 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 51942 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:44:42.630
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52168 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 52168 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:45:51.708
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52456 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 52456 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X05ParallelExecution.xml
+
+!ENTRY org.eclipse.ui 4 0 2024-09-20 21:48:10.344
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.eclipse.ui 4 0 2024-09-20 21:48:10.550
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage.dialogChanged(NewTestNGClassWizardPage.java:236)
+	at org.testng.eclipse.wizards.NewTestNGClassWizardPage$1.modifyText(NewTestNGClassWizardPage.java:92)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:183)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1087)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1068)
+	at org.eclipse.swt.widgets.Text.wmCommandChild(Text.java:3100)
+	at org.eclipse.swt.widgets.Control.WM_COMMAND(Control.java:4897)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4749)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.CallWindowProc(Native Method)
+	at org.eclipse.swt.widgets.Text.callWindowProc(Text.java:293)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4847)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2681)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5015)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3630)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.testng.eclipse.refactoring.CreateClassAction.execute(CreateClassAction.java:22)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:283)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor50.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:317)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:251)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.workbench.renderers.swt.HandledContributionItem.executeItem(HandledContributionItem.java:438)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.handleWidgetSelection(AbstractContributionItem.java:449)
+	at org.eclipse.e4.ui.workbench.renderers.swt.AbstractContributionItem.lambda$2(AbstractContributionItem.java:475)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4243)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1063)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4060)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3632)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1440)
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 21:51:44.570
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53044 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1394234813\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 53044 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1394234813\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 22:07:05.210
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54147 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2086910818\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 54147 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse-2086910818\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 22:07:29.966
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54200 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X06Parameters.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 54200 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X06Parameters.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 22:15:30.905
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54780 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1063296040\testng-customsuite.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 54780 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1063296040\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2024-09-20 22:15:52.883
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin D:\For Selenium WebDriver\selenium-server-4.24.0.jar C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 54829 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X06Parameters.xml
+java -ea -classpath C:\Users\Dell\eclipse\java-2022-03\eclipse\configuration\org.eclipse.osgi\431\0\.cp\lib\testng-remote.jar:D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\bin:D:\For Selenium WebDriver\selenium-server-4.24.0.jar:C:\Users\Dell\.p2\pool\plugins\org.testng_7.10.1.r202404130807.jar:C:\Users\Dell\.p2\pool\plugins\com.beust.jcommander_1.82.0.jar:C:\Users\Dell\.p2\pool\plugins\org.apache-extras.beanshell.bsh_2.0.0.b6.jar:C:\Users\Dell\.p2\pool\plugins\org.yaml.snakeyaml_1.21.0.jar:C:\Users\Dell\.p2\pool\plugins\org.webjars.jquery_3.7.1.jar org.testng.remote.RemoteTestNG -serport 54829 -protocol json -d D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\test-output D:\StarAgile\Demos\SA2406006\SeleniumAutomationProject\src\com\TestNGDemos\X06Parameters.xml
