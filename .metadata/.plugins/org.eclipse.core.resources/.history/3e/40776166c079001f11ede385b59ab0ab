@@ -1,0 +1,27 @@
+package com.TestNGDemos;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class RediffLogin {
+	WebDriver driver;
+	public void openSite()
+	{
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+	}
+	public void setUserName(String un)
+	{
+		driver.findElement(By.xpath("//input[@id='login1']")).sendKeys(un);
+	}
+	public void clickOnSignInBtn()
+	{
+		driver.findElement(By.name("proceed")).click();
+	}
+	public void handleAlert()
+	{
+		Alert alt = driver.switchTo().alert();
+		System.out.println(alt.getText());
+		alt.accept();
+	}
+}

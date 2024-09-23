@@ -1,0 +1,9 @@
+package com.TestNGDemos;
+
+import org.testng.annotations.Test;
+
+public class D11POM_Client {
+  @Test
+  public void f() {
+  }
+}

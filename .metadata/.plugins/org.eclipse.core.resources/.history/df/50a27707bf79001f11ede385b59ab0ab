@@ -1,0 +1,5 @@
+url = https://www.echotrak.com/Login.aspx?ReturnUrl=%2f
+userNameTxtBoxName = txtCustomerID
+passwordTxtBoxXPath = //*[@id="txtPassword"]
+submitBtnCss = input[type="submit"]
+errMsgId = lblMsg
