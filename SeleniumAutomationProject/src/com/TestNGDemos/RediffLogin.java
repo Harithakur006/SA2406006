@@ -27,6 +27,7 @@ public class RediffLogin {
 	public void setUserName(String un)
 	{
 		//driver.findElement(By.xpath("//input[@id='login1']")).sendKeys(un);
+		userName.clear();
 		userName.sendKeys(un);
 	}
 	public void clickOnSignInBtn()

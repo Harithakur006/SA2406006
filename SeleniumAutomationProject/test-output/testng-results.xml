@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-23T22:20:59 IST" name="Default suite" finished-at="2024-09-23T22:21:01 IST" duration-ms="1770">
+  <suite started-at="2024-09-25T22:03:14 IST" name="Default suite" finished-at="2024-09-25T22:03:15 IST" duration-ms="1476">
     <groups>
     </groups>
-    <test started-at="2024-09-23T22:20:59 IST" name="Default test" finished-at="2024-09-23T22:21:01 IST" duration-ms="1770">
-      <class name="com.TestNGDemos.D12WriteDataToExcel">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@60f00693]" started-at="2024-09-23T22:20:59 IST" name="beforeTest" finished-at="2024-09-23T22:21:01 IST" duration-ms="1245" status="PASS">
+    <test started-at="2024-09-25T22:03:14 IST" name="Default test" finished-at="2024-09-25T22:03:15 IST" duration-ms="1476">
+      <class name="com.TestNGDemos.D15ReadingData">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D15ReadingData@79207381]" started-at="2024-09-25T22:03:14 IST" name="beforeTest" finished-at="2024-09-25T22:03:15 IST" duration-ms="1363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="writeData()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@60f00693]" started-at="2024-09-23T22:21:01 IST" name="writeData" finished-at="2024-09-23T22:21:01 IST" duration-ms="65" status="PASS">
+        <test-method signature="getAllData()[pri:0, instance:com.TestNGDemos.D15ReadingData@79207381]" started-at="2024-09-25T22:03:15 IST" name="getAllData" finished-at="2024-09-25T22:03:15 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- writeData -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D12WriteDataToExcel@60f00693]" started-at="2024-09-23T22:21:01 IST" name="afterTest" finished-at="2024-09-23T22:21:01 IST" duration-ms="353" status="PASS">
+        </test-method> <!-- getAllData -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D15ReadingData@79207381]" started-at="2024-09-25T22:03:15 IST" name="afterTest" finished-at="2024-09-25T22:03:15 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D12WriteDataToExcel -->
+      </class> <!-- com.TestNGDemos.D15ReadingData -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

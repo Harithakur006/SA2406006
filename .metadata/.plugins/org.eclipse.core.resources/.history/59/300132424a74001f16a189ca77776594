@@ -1,9 +1,0 @@
-package com.WebDriverDemos;
-
-public class D26HandlingDynamicMenu {
-
-	public static void main(String[] args) {
-		
-	}
-
-}
