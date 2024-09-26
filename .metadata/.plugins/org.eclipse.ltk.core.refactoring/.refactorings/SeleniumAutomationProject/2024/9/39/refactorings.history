@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename field &apos;driver&apos; in &apos;com.TestNGDemos.RediffLogin&apos; to &apos;driverRediff&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumAutomationProject&apos;&#x0D;&#x0A;- Original element: &apos;com.TestNGDemos.RediffLogin.driver&apos;&#x0D;&#x0A;- Renamed element: &apos;com.TestNGDemos.RediffLogin.driverRediff&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" delegate="false" deprecate="false" description="Rename field &apos;driver&apos;" flags="589830" getter="false" id="org.eclipse.jdt.ui.rename.field" input="/src&lt;com.TestNGDemos{RediffLogin.java[RediffLogin^driver" name="driverRediff" references="true" setter="false" stamp="1727361692828" textual="false" version="1.0"/>
+</session>

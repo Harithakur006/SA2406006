@@ -10,19 +10,19 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class RediffLogin {
-	WebDriver driver;
+	WebDriver driverRediff;
 	
 	@FindBy (xpath = "//input[@id='login1']") WebElement userName;
 	@FindBy (name = "proceed") WebElement signInBtn;
 	
 	public RediffLogin(WebDriver driver) {
-		this.driver = driver;
+		this.driverRediff = driver;
 		PageFactory.initElements(driver, this);
 	}
 
 	public void openSite()
 	{
-		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		driverRediff.get("https://mail.rediff.com/cgi-bin/login.cgi");
 	}
 	public void setUserName(String un)
 	{
@@ -37,13 +37,13 @@ public class RediffLogin {
 	}
 	public void handleAlert() throws InterruptedException
 	{
-		Alert alt = driver.switchTo().alert();
+		Alert alt = driverRediff.switchTo().alert();
 		System.out.println(alt.getText());
 		Thread.sleep(5000);
 		alt.accept();
 	}
 	public void tearDown()
 	{
-		driver.close();
+		driverRediff.close();
 	}
 }
