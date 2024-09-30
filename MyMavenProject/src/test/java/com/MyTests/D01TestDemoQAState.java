@@ -20,8 +20,11 @@ public class D01TestDemoQAState {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(0, 800)", "");
 		
-		driver.findElement(By.xpath("//*[@id=\"state\"]/div/div[2]/div")).click();
-		driver.findElement(By.xpath("//*[@id=\"react-select-3-option-2\"]")).click();		
+		driver.findElement(By.xpath("//*[@id=\"subjectsInput\"]")).sendKeys("H");
+		driver.findElement(By.xpath("//*[@id=\"react-select-2-option-0\"]")).click();
+		js.executeScript("arguments[0].click()",driver.findElement(By.id("hobbies-checkbox-1")));
+		//driver.findElement(By.xpath("//*[@id=\"state\"]/div/div[2]/div")).click();
+		//driver.findElement(By.xpath("//*[@id=\"react-select-3-option-2\"]")).click();		
 		
 		//driver.close();
 	}
