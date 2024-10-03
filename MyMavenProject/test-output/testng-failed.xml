@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.MyTests.D03Login_Logout_OHRM">
+      <class name="com.MyTests.D05ExtendReport_TestNG">
         <methods>
-          <include name="afterClass"/>
-          <include name="login" invocation-numbers="0"/>
-          <include name="logout"/>
-          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="afterMethod"/>
+          <include name="openYahoo"/>
+          <include name="openBing"/>
         </methods>
-      </class> <!-- com.MyTests.D03Login_Logout_OHRM -->
+      </class> <!-- com.MyTests.D05ExtendReport_TestNG -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
