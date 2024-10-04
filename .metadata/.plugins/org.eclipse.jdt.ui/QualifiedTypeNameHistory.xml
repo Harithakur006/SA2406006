@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.WebDriverWait"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.FluentWait"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.NoSuchElementException"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedCondition"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.ExpectedConditions"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.locators.RelativeLocator"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
     <fullyQualifiedTypeName name="java.awt.Robot"/>
     <fullyQualifiedTypeName name="java.awt.event.KeyEvent"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
@@ -22,7 +14,6 @@
     <fullyQualifiedTypeName name="org.testng.annotations.AfterMethod"/>
     <fullyQualifiedTypeName name="org.testng.annotations.BeforeMethod"/>
     <fullyQualifiedTypeName name="org.testng.asserts.Assertion"/>
-    <fullyQualifiedTypeName name="org.testng.Assert"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Parameters"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
@@ -40,14 +31,11 @@
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFCellStyle"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFFont"/>
     <fullyQualifiedTypeName name="org.apache.poi.hssf.util.HSSFColor.HSSFColorPredefined"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.JavascriptExecutor"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="com.MyTests.ReadDataFromExcel"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.ExtentSparkReporter"/>
@@ -55,9 +43,21 @@
     <fullyQualifiedTypeName name="com.aventstack.extentreports.ExtentTest"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.model.Report"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.reporter.configuration.Theme"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
-    <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.MarkupHelper"/>
     <fullyQualifiedTypeName name="com.aventstack.extentreports.markuputils.ExtentColor"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeOptions"/>
+    <fullyQualifiedTypeName name="org.testng.Assert"/>
+    <fullyQualifiedTypeName name="com.aventstack.extentreports.Status"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.When"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Then"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.Keys"/>
+    <fullyQualifiedTypeName name="io.cucumber.java.en.Given"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="org.junit.Assert"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.Cucumber"/>
+    <fullyQualifiedTypeName name="io.cucumber.junit.CucumberOptions"/>
 </qualifiedTypeNameHistroy>
