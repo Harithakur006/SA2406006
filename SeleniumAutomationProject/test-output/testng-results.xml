@@ -1,181 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-26T21:28:33 IST" name="Default suite" finished-at="2024-09-26T21:29:01 IST" duration-ms="28616">
+  <suite started-at="2024-10-07T21:53:01 IST" name="Demo" finished-at="2024-10-07T21:53:01 IST" duration-ms="119">
     <groups>
     </groups>
-    <test started-at="2024-09-26T21:28:33 IST" name="Default test" finished-at="2024-09-26T21:29:01 IST" duration-ms="28616">
-      <class name="com.TestNGDemos.D16LoginToOHRM_DDF">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:33 IST" name="beforeTest" finished-at="2024-09-26T21:28:41 IST" duration-ms="7971" status="PASS">
+    <test started-at="2024-10-07T21:53:01 IST" name="Trial" finished-at="2024-10-07T21:53:01 IST" duration-ms="119">
+      <class name="com.BeforeAfterDemos.Demo1">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="beforeSuite" finished-at="2024-10-07T21:53:01 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="beforeTest" finished-at="2024-10-07T21:53:01 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:41 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:42 IST" duration-ms="886" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[anup]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[anup123]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="beforeClass" finished-at="2024-10-07T21:53:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:42 IST" name="afterMethod" finished-at="2024-09-26T21:28:43 IST" duration-ms="985" status="PASS">
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test1()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="test1" finished-at="2024-10-07T21:53:01 IST" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:43 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:43 IST" duration-ms="661" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="afterClass" finished-at="2024-10-07T21:53:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:43 IST" name="afterMethod" finished-at="2024-09-26T21:28:47 IST" duration-ms="3857" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:47 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:49 IST" duration-ms="1805" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[lavanya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[lavanya123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:49 IST" name="afterMethod" finished-at="2024-09-26T21:28:49 IST" duration-ms="23" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:49 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:51 IST" duration-ms="2167" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:51 IST" name="afterMethod" finished-at="2024-09-26T21:28:53 IST" duration-ms="2118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:53 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:55 IST" duration-ms="1621" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ruksar]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ruksar123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:55 IST" name="afterMethod" finished-at="2024-09-26T21:28:55 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:55 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:57 IST" duration-ms="1800" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vivek]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[vivek]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:57 IST" name="afterMethod" finished-at="2024-09-26T21:28:57 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:57 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:28:57 IST" duration-ms="599" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[basav]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[basav123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:57 IST" name="afterMethod" finished-at="2024-09-26T21:28:58 IST" duration-ms="919" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="loginToOHRM(java.lang.String,java.lang.String)[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:28:58 IST" name="loginToOHRM" data-provider="getLoginData" finished-at="2024-09-26T21:29:00 IST" duration-ms="1814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[selva]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[selva123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginToOHRM -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:29:00 IST" name="afterMethod" finished-at="2024-09-26T21:29:00 IST" duration-ms="16" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.TestNGDemos.D16LoginToOHRM_DDF@71687585]" started-at="2024-09-26T21:29:00 IST" name="afterTest" finished-at="2024-09-26T21:29:01 IST" duration-ms="1171" status="PASS">
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="afterTest" finished-at="2024-10-07T21:53:01 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.TestNGDemos.D16LoginToOHRM_DDF -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.BeforeAfterDemos.Demo1@7b4c50bc]" started-at="2024-10-07T21:53:01 IST" name="afterSuite" finished-at="2024-10-07T21:53:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.BeforeAfterDemos.Demo1 -->
+      <class name="com.BeforeAfterDemos.Demo2">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.BeforeAfterDemos.Demo2@1a4927d6]" started-at="2024-10-07T21:53:01 IST" name="beforeClass" finished-at="2024-10-07T21:53:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="test2()[pri:0, instance:com.BeforeAfterDemos.Demo2@1a4927d6]" started-at="2024-10-07T21:53:01 IST" name="test2" finished-at="2024-10-07T21:53:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.BeforeAfterDemos.Demo2@1a4927d6]" started-at="2024-10-07T21:53:01 IST" name="afterClass" finished-at="2024-10-07T21:53:01 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.BeforeAfterDemos.Demo2 -->
+    </test> <!-- Trial -->
+  </suite> <!-- Demo -->
 </testng-results>

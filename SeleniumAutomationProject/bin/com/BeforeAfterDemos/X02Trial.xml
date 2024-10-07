@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Demo">
+	<test name = "Trial">
+		<classes>
+			<class name = "com.BeforeAfterDemos.Demo1"></class>
+			<class name = "com.BeforeAfterDemos.Demo2"></class>
+		</classes>
+	</test>
+</suite>
